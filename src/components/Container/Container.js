@@ -9,7 +9,7 @@ const Container = props => (
   </div>
 );
 Container.propTypes = {
-    children: PropTypes.array,
+    children: PropTypes.node,
 };
 
 export default Container; 
