@@ -3,7 +3,7 @@ import styles from './Column.scss';
 import PropTypes from 'prop-types';
 import Card from '../Card/Card.js';
 import Creator from '../Creator/Creator.js';
-import {settings } from '../../data/dataStore';
+import { settings } from '../../data/dataStore';
 import Icon from '../Icon/Icon.js';
 
 class Column extends React.Component {
@@ -16,10 +16,10 @@ class Column extends React.Component {
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   }
-  
- 
+
+
   render() {
-    const {title, icon, cards, addCard} = this.props;
+    const { title, icon, cards, addCard } = this.props;
     return (
       <section className={styles.component}>
         <h3 className={styles.title}>{title}<span className={styles.icon}><Icon name={icon} /></span></h3>
