@@ -22,6 +22,11 @@ export const pageContents = {
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
 
+export const searchContent = {
+  title: 'Search results',
+  icon: 'search',
+};
+
 export const faqData = {
   title: 'FAQ',
   image: 'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
